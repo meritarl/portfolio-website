@@ -3,10 +3,8 @@
 }
 header {
   text-align: center;
-  padding: 10px 0;
-  margin: 10px 0;
+  padding: 20px 0;
   background-color:	#eeeeed;
-  display: fixed
 }
 nav > ul {
   list-style-type: none;
@@ -39,7 +37,6 @@ body {
   font-weight: 300;
   line-height: 1.6;
   color: #000000;
-  margin: 0px 10px;
 }
 h1, h2, h3, h4 {
   font-family: 'Archivo Black', sans-serif;
@@ -110,7 +107,7 @@ a:active {
 }
 /* Layout styling */
 .container {
-  padding: 0 15px;
+  padding: 0 20px;
 }
 .row {
   margin: 10px 0;
@@ -120,12 +117,15 @@ a:active {
   clear: both;
   display: table;
 }
+#work .row {
+  margin: 25px 0;
+}
 .logo {
-  max-width: 250px;
   text-decoration: none;
   font-family: 'Archivo Black', sans-serif;
   font-weight: 400;
   text-transform: uppercase;
+  font-size: 1.4em;
 }
 #hero {
   padding: 50px 0;
@@ -143,15 +143,24 @@ footer {
 .icon {
   max-width: 30px;
 }
-#contact ul {
+.social ul {
     list-style-type: none;
     padding: 0px;
 }
-#contact ul > li {
+.social ul > li {
   display: inline-block;
 }
-#contact ul > li > a {
+.social ul > li > a {
   padding: 0 10px;
+}
+.social li:first-child a {
+  padding-left: 0;
+}
+.copy {
+  font-size: 0.7em;
+}
+#about-content .button {
+  margin-bottom: 2em;
 }
 @keyframes color-change {
   0% {fill: #edc655;}
@@ -181,11 +190,15 @@ Medium devices (640px and larger)
 @media only screen and (min-width: 640px) {
   header {
   text-align: unset;
-  padding: 20px 0 13px;
+  padding: 30px 0;
   }
   nav {
     width: auto;
     float: right;
+    margin-top: 7px;
+  }
+  nav > ul {
+    margin: 0;
   }
   .logo {
     font-size: 1.5em;
@@ -195,7 +208,16 @@ Medium devices (640px and larger)
 }
 [class*="col-"] {
   float: left;
-  padding-right: 10px;
+  padding: 20px;
+}
+#work .row {
+  margin: 0 -20px 20px;
+}
+#about-content .row {
+  margin: 0 -20px 20px;
+}
+#about-content img {
+  max-width: 400px;
 }
 }
 /* ==============================
@@ -210,15 +232,24 @@ width: 60%;
 }
 [class*="col-"] {
   float: left;
-  padding-right: 10px;
+  padding: 20px;
 }
 .container {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
 }
+.row {
+  margin: 10px -20px;
+}
 #about .group {
   padding: 10px 0px;
+}
+#about-content .button {
+  margin-bottom: 5em;
+}
+#about-content img {
+  max-width: 500px;
 }
 .logo {
   font-size: 1.5em;
