@@ -233,9 +233,6 @@ Medium devices (640px and larger)
 .navtoggle li:last-child {
   display: none;
 }
-nav > ul {
-  margin: 1em 0;
-}
   .logo {
     font-size: 1.5em;
   }
