@@ -268,6 +268,18 @@ padding: 0;
 Large devices (1024px or larger)
 ================================= */
 @media only screen and (min-width: 1024px) {
+  h1 {
+    font-size: 2.4em;
+  }
+  h2 {
+    font-size: 1.7em;
+  }
+  h3 {
+    font-size: 1em;
+  }
+  h4 {
+    font-size: 0.7em;
+  }
   .col-lg-5 {
   width: 40%;
 }
@@ -291,9 +303,6 @@ width: 60%;
 }
 #about .group {
   padding: 10px 0px;
-}
-#about-content .button {
-  margin-bottom: 5em;
 }
 #about-content img {
   max-width: 500px;
