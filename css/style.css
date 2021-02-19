@@ -23,7 +23,8 @@ nav > ul > li > a {
   display: none;
 }
 
-.navtoggle, .navtoggle.responsive {
+.navtoggle,
+.navtoggle.responsive {
   position: relative;
 }
 
@@ -194,7 +195,7 @@ a:active {
 }
 
 #about {
-  padding-top: 100px 0;
+  padding-top: 100px;
 }
 
 .group {
@@ -236,9 +237,9 @@ footer {
 }
 
 @keyframes color-change {
-  0% { fill: #edc655; }
-  50% { fill: #fcffad; }
-  100% { fill: #f76414; }
+  0% { color: #edc655; }
+  50% { color: #fcffad; }
+  100% { color: #f76414; }
 }
 
 .sun {
