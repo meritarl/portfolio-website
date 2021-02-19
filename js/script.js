@@ -1,9 +1,9 @@
-console.log("Hello, welcome to my portfolio!")
-function menuToggle() {
-  var x = document.getElementById('myNavtoggle');
+console.log('Hello, welcome to my portfolio!')
+function menuToggle () {
+  var x = document.getElementById('myNavtoggle')
   if (x.className === 'navtoggle') {
-    x.className += ' responsive';
+    x.className += ' responsive'
   } else {
-    x.className = 'navtoggle';
+    x.className = 'navtoggle'
   }
 }
