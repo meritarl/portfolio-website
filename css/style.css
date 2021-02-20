@@ -28,7 +28,7 @@ nav > ul > li > a {
   position: relative;
 }
 
-.navtoggle li.icon {
+.navtoggle li.menuicon {
   position: absolute;
   right: 0;
   top: 2px;
@@ -211,6 +211,13 @@ footer {
   max-width: 30px;
 }
 
+.menuicon {
+  max-width: 30px;
+  position: absolute;
+  right: 0;
+  top: 5px;
+}
+
 .social ul {
   list-style-type: none;
   padding: 0;
@@ -221,7 +228,7 @@ footer {
 }
 
 .social ul > li > a {
-  padding: 0 10px;
+  padding: 0 5px;
 }
 
 .social li:first-child a {
